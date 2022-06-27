@@ -1,0 +1,36 @@
+{
+	"name": "tekcos",
+	"description": "WebSocket Server",
+	"version": "0.1.0",
+	"keywords": [
+		"realtime",
+		"framework",
+		"websocket",
+		"tcp",
+		"events",
+		"server",
+		"client"
+	],
+	"license": "MIT",
+	"author": {
+		"name": "Jonas Roussel",
+		"email": "go.jroussel@gmail.com",
+		"url": "https://github.com/jonasroussel"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/jonasroussel/tekcos"
+	},
+	"engines": {
+		"node": ">=12.0.0"
+	},
+	"main": "index.js",
+	"scripts": {
+		"build": "rm -rf lib && tsc"
+	},
+	"devDependencies": {
+		"@types/node": "^18.0.0",
+		"ts-node": "^10.8.1",
+		"typescript": "^4.7.4"
+	}
+}

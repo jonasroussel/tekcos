@@ -1,0 +1,28 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    // Modules
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+
+    // Output
+    "baseUrl": "./src",
+    "outDir": "./lib",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "target": "ES6",
+    "declaration": true,
+    "sourceMap": true,
+
+    // Lint
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // Optimization
+    "skipLibCheck": true
+  }
+}
